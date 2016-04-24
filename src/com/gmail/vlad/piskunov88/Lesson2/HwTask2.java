@@ -11,17 +11,17 @@ public class HwTask2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int a;
-        int b;
-        int c;
+        double a;
+        double b;
+        double c;
 
         double s;
         double p;
 
         System.out.println("Please input size sides:  ");
-        a = sc.nextInt();
-        b = sc.nextInt();
-        c = sc.nextInt();
+        a = sc.nextDouble();
+        b = sc.nextDouble();
+        c = sc.nextDouble();
 
         p = (a +b +c)/2;
         s = Math.sqrt(p * (p - a) * (p-b) * (p-c));
